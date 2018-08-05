@@ -40,6 +40,17 @@
             android:textStyle="italic"
             tools:layout_editor_absoluteX="82dp"
             tools:layout_editor_absoluteY="16dp" />
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/speech_btn"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:background="@drawable/speaker_icon" />
+
     </LinearLayout>
 
     <TextView
